@@ -1,11 +1,7 @@
 .page {
   min-width: 1100px;
-  /* мы ещё не умеем делать мобильную версию сайта, */
-  /* поэтому выше установлена минимальная ширина страницы */
   max-width: 1600px;
-  /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
-  /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
@@ -13,13 +9,63 @@
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
-  /* выше установили ограничения для секции */
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #f2f2f2;
 }
 
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
-.header__square-pic {
+.logo {
+  background-size: cover;
+  width: 228px;
+  height: 32px;
+}
+
+.logo_place_header {
+  background-image: url("../images/logo_place_header.svg");
+  position: absolute;
+  top: 30px;
+  left: 64px;
+  z-index: 1;
+}
+
+.title{
+  width: 730px;
+  line-height: 96px;
+  font-size: 102px;
+  font-weight: 600;
+  margin-left: 64px;
+  z-index: 2;
+  color: #000000;
+}
+
+.subtitle {
+  position: absolute;
+  width: 388px;
+  left: 64px;
+  bottom: 30px;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 25px;
+  z-index: 3;
+  color: #000000;
+}
+
+.main-illustration{
+  position: absolute;
+  width: 765px;
+  height: 608px;
+  object-fit: cover;
+  bottom: 0;
+  right: 0;
+}
+
+.square-pic {
   height: 568px;
   width: 568px;
+  color: #2f80ed;
+  position: absolute;
 }
 
 /* и элемента с модификатором вида ключ-значение */
