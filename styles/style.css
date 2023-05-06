@@ -27,20 +27,19 @@
   position: absolute;
   top: 30px;
   left: 64px;
-  z-index: 1;
 }
 
-.title{
+.header__title {
   width: 730px;
   line-height: 96px;
   font-size: 102px;
   font-weight: 600;
   margin-left: 64px;
-  z-index: 2;
   color: #000000;
+  z-index: 1;
 }
 
-.subtitle {
+.header__subtitle {
   position: absolute;
   width: 388px;
   left: 64px;
@@ -48,11 +47,10 @@
   font-size: 18px;
   font-weight: normal;
   line-height: 25px;
-  z-index: 3;
   color: #000000;
 }
 
-.main-illustration{
+.header__main-illustration {
   position: absolute;
   width: 765px;
   height: 608px;
@@ -61,11 +59,54 @@
   right: 0;
 }
 
-.square-pic {
+.header__square-pic {
   height: 568px;
   width: 568px;
-  color: #2f80ed;
+  background-color: #2f80ed;
   position: absolute;
+  right: 0;
+  top: 64px;
+}
+
+.description {
+  display: flex;
+  justify-content: center;
+  margin: 100px 0;
+}
+
+.two-columns {
+  border: 5px solid #000000;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.two-columns__brief {
+  border: 5px solid #008b8b;
+  width: 175px;
+  margin-top: 0;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  color: #2f80ed;
+}
+
+.two-columns__main-text {
+  border: 5px solid #00fa9a;
+  min-width: 784px;
+  width: 80%;
+}
+
+.two-columns__paragraph {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.two-columns__span-accent {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: 600;
 }
 
 /* и элемента с модификатором вида ключ-значение */
