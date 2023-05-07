@@ -75,14 +75,13 @@
 }
 
 .two-columns {
-  border: 5px solid #000000;
   width: 80%;
   display: flex;
   justify-content: space-between;
+  margin: 0 auto;
 }
 
 .two-columns__brief {
-  border: 5px solid #008b8b;
   width: 175px;
   margin-top: 0;
   line-height: 1.2;
@@ -92,15 +91,19 @@
 }
 
 .two-columns__main-text {
-  border: 5px solid #00fa9a;
   min-width: 784px;
   width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 30px;
 }
 
 .two-columns__paragraph {
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
+  margin: 0;
 }
 
 .two-columns__span-accent {
@@ -109,6 +112,48 @@
   font-weight: 600;
 }
 
+.digits {
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-title {
+  border: chocolate 2px solid;
+  width: 60%;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 600;
+  margin: 0 auto 20px;
+}
+
+.section-subtitle {
+  border: aqua 2px solid;
+  width: 60%;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.table {
+  border: chartreuse 2px solid;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 1100px;
+  padding: 60px 0 0;
+  margin: 0 auto;
+  list-style: none;
+  row-gap: 60px;
+
+}
+
+.table__cell {
+  border: darkblue 2px solid;
+  width: 250px;
+}
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
