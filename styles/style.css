@@ -138,7 +138,7 @@
 }
 
 .table {
-  border: chartreuse 2px solid;
+  border: chartreuse 5px solid;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
