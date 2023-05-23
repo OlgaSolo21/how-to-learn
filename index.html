@@ -4,17 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Научиться учиться</title>
-  <link rel="stylesheet" href="./styles/normalize.css">
-  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="./index.css">
 </head>
-<body>
-  <div class="page">
+<body class="root">
     <header class="header">
       <div class="logo logo_place_header"></div>
       <h1 class="header__title">Научиться учиться</h1>
       <p class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни? <a class="header__link" href="#">Узнать &rarr;</a>
       </p>
-      <div class="header__square-pic"></div>
+      <div class="header__square-pic rotation"></div>
       <img class="header__main-illustration" src="images/header-image.png" alt="Картина 'Опять двойка'">
     </header>
     <main class="content">
@@ -27,6 +25,37 @@
             <p class="two-columns__paragraph">Конкретные техники и упражнения помогают изменить подход к обучению, сделать его эффективным и захватывающим. Эти же техники применяются на примере обучения в Практикуме.</p>
           </div>
         </article>
+      </section>
+      <section class="techniques">
+        <h2 class="section-title">Техники обучения</h2>
+        <p class="section-subtitle">Пять практик от Барбары Оакли</p>
+        <ul class="cards">
+          <li class="item">
+            <img class="image" src="./images/cards-attention.png" alt="Два вида внимания">
+            <h3 class="title">Два вида внимания</h3>
+            <p class="description">Глубокие знания возникают, если чередовать сфокусированное и рассеянное мышление.</p>
+          </li>
+          <li class="item">
+            <img class="image" src="./images/cards-recall.png" alt="Recall">
+            <h3 class="title">Recall</h3>
+            <p class="description">Вспоминайте изученное — это позволит соединить разрозненные порции памяти.</p>
+          </li>
+          <li class="item">
+            <img class="image" src="./images/cards-interliving.png" alt="Интерливинг">
+            <h3 class="title">Интерливинг</h3>
+            <p class="description">Изучайте несколько навыков одновременно, они обогащают друг друга.</p>
+          </li>
+          <li class="item">
+            <img class="image" src="./images/cards-question.png" alt="Вопросы">
+            <h3 class="title">Вопросы</h3>
+            <p class="description">Слушая преподавателя, придумывайте хороший вопрос, который вас действительно волнует.</p>
+          </li>
+          <li class="item">
+            <img class="image" src="./images/cards-competence.png" alt="Иллюзия компетентности">
+            <h3 class="title">Иллюзия компетентности</h3>
+            <p class="description">Повторите про себя, запишите, расскажите другу: вам только кажется, что вы владеете новой темой.</p>
+          </li>
+        </ul>
       </section>
       <section class="digits">
         <h2 class="section-title">Цифры и факты</h2>
@@ -77,7 +106,7 @@
       <section class="kaufman">
         <h2 class="section-title section-title_theme_dark">Принципы обучения</h2>
         <p class="section-subtitle section-subtitle_theme_dark">от Джоша Кауфмана</p>
-        <div class="kaufman__triangle"></div>
+        <div class="kaufman__triangle rotation"></div>
         <ul class="table table_theme_dark">
           <li class="table__cell table__cell_theme_dark">
             <h3 class="table__heading table__heading_theme_dark">1</h3>
@@ -146,6 +175,5 @@
         </nav>
       </div>
     </footer>
-  </div>
 </body>
 </html>
