@@ -1,6 +1,6 @@
-.khan__container{
-  max-width: 80%;
+.video{
   margin: 0 auto;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
