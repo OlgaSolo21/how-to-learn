@@ -1,5 +1,6 @@
-.resources__logo{
+.resources__link{
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
+  list-style: none;
 }
